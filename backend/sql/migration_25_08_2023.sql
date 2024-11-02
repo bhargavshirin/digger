@@ -7,3 +7,6 @@ SET repo_id = namespace_id;
 
 UPDATE public.policies
 SET repo_id = namespace_id;
+
+update public.repos
+set id=s_id
